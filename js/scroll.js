@@ -442,7 +442,6 @@ $(function(){
 //	
 		new ScrollMagic.Scene({offset: 36160,triggerHook: 0, duration: 2000})
 								.setPin("#dianjiditu")
-								.addIndicators()
 								.addTo(controller);
 		new ScrollMagic.Scene({offset: 36160,triggerHook: 0})
 		.on("enter",function(){
