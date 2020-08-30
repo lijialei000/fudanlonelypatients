@@ -35,7 +35,7 @@ $(function(){
 		})
 		
 		$("#muou").click(function(){
-			$(".readmore").attr("id","tianshi1")
+			$(".readmore").attr("id","muou1")
 			$(".square .content h2").text("牵线木偶人")
 			$(".square .content .title").text("多发性硬化")
 			$(".square .content .jibing-detail").text("")
@@ -44,6 +44,7 @@ $(function(){
 		
 		$(".readmore").click(function(event){
 			var moreid=event.target.id
+			
 			if (moreid=="paopaolong1"){
 				$(".jibing-detail").text('泡泡龙，原名为遗传性大疱性表皮松解症。患儿全身各部位皮肤都有可能起水疱、血疱，较严重者口腔、食道、肠胃等黏膜部位也有水疱发生，甚至发生皮肤癌。')
 			} else if(moreid=="yueliang1"){
