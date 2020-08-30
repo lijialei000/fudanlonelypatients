@@ -100,10 +100,10 @@ $(function(){
 		
 		new ScrollMagic.Scene({offset: 3500,triggerHook: 0,duration:700})
 		.on("enter",function(){
-			$("video").removeClass("invisible")
+			$("#video").removeClass("invisible")
 		})
 		.on("leave",function(){
-			$("video").addClass("invisible")
+			$("#video").addClass("invisible")
 		}).addTo(controller);
 		
 		
