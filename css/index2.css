@@ -203,7 +203,7 @@ svg rect:hover {
 	display: none;
 }
 
-video {
+#video {
 	position: absolute;
 	top:40px;
 	right: 0px;

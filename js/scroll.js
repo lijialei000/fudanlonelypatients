@@ -521,7 +521,7 @@ $(function(){
 				
 			})
 			
-			new ScrollMagic.Scene({offset: 41100,triggerHook: 0, duration: 2200})
+			new ScrollMagic.Scene({offset: 40700,triggerHook: 0, duration: 2200})
 								.setPin("#ronghe1")
 								
 								.addTo(controller);
@@ -529,7 +529,7 @@ $(function(){
 //	
 //		
 		new ScrollMagic.Scene({
-							offset: 41300,
+							offset: 41000,
 							duration: 1600, 
 			// show, when scrolled 10% into view
 							 // hide 10% before exiting view (80% + 10% from bottom)
@@ -539,7 +539,7 @@ $(function(){
 						.addTo(controller);
 		
 		new ScrollMagic.Scene({
-							offset: 41400,
+							offset: 41100,
 							duration: 1500, // hide 10% before exiting view (80% + 10% from bottom)
 						})
 						.setClassToggle("#scene3", "visible")
@@ -547,20 +547,20 @@ $(function(){
 						.addTo(controller);
 //		  
 		  new ScrollMagic.Scene({
-			  offset:41400,
+			  offset:41100,
 			  duration:700,
 		  }).on("enter",function(){
 			  $('#scene3 p').html('由于社会对罕见病的认知程度低，很多人害怕接触罕见病患者，也无法对他们的病症给予足够的理解，旁人的目光、嘲笑、远离，以及校园、职场和情场上的歧视给这些患者带来了难以想象的二次伤害。')
 		  }).addTo(controller);
 //		  
 		  new ScrollMagic.Scene({
-			  offset:42100,
+			  offset:41800,
 			  duration:700,
 		  }).on("enter",function(){
 			  $('#scene3 p').html('部分患者在回答中说到“以前也出过血友病患者被取消录取的，还不是个例”、“男朋友知道我的病后，分手了”、“像样的企业没人愿意用我”、“没人理解，觉得你是异类”')
 		  }).addTo(controller);
 	
-	new ScrollMagic.Scene({offset: 46900,triggerHook: 0, duration: 3000})
+	new ScrollMagic.Scene({offset: 46600,triggerHook: 0, duration: 3000})
 								.setPin("#xinli1")
 								
 								.addTo(controller);
@@ -568,7 +568,7 @@ $(function(){
 ////	
 ////		
 		new ScrollMagic.Scene({
-							offset: 47100,
+							offset: 46800,
 							duration: 2500, 
 			// show, when scrolled 10% into view
 							 // hide 10% before exiting view (80% + 10% from bottom)
@@ -578,7 +578,7 @@ $(function(){
 						.addTo(controller);
 		
 		new ScrollMagic.Scene({
-							offset: 47200,
+							offset: 46900,
 							duration: 2400, // hide 10% before exiting view (80% + 10% from bottom)
 						})
 						.setClassToggle("#scene4", "visible")
@@ -586,21 +586,21 @@ $(function(){
 						.addTo(controller);
 ////		  
 		  new ScrollMagic.Scene({
-			  offset:47500,
+			  offset:47200,
 			  duration:700,
 		  }).on("enter",function(){
 			  $('#scene4 p').html('家属的情绪问题往往容易被社会所忽视，但家属往往承担着不小于患者的压力，尤其对于那些因病带来智力障碍的患者家属而言，这一情况更为严重。')
 		  }).addTo(controller);
 //		  
 		  new ScrollMagic.Scene({
-			  offset:48200,
+			  offset:47900,
 			  duration:700,
 		  }).on("enter",function(){
 			  $('#scene4 p').html('在知乎的回答中，部分患者选择与疾病和平共处后，会呈现出乐观，以及对生活充满感激的心态；但对于家属而言，他们更多地只是单纯呈现出负面的情绪，为患者以及家庭的未来倍感担忧。')
 		  }).addTo(controller);
 		  
 		  new ScrollMagic.Scene({
-			  offset:48900,
+			  offset:48600,
 			  duration:700,
 		  }).on("enter",function(){
 			  $('#scene4 p').html('患者家属在回答中说道，“从害怕与无助，到自责与怀疑，看到别人的孩子会失落，去母校散步会因为想到以后自己的女儿也许无法体验大学生活难过”、“我好怕过几年她（母亲）连自己的女儿都忘了”等等。）')
